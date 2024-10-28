@@ -47,7 +47,7 @@ img = test_image.copy()
 img = np.float32(img) / 255
 
 model = YOLO('best.pt')
-target_layers = [model.model.model[-3]]
+target_layers = [model.model.model[-3]] #Final Convolutional Layer of YOLO model, (-2 -> Concat Layer, -1 -> C2f layer)
 calculator = EigenCAMMetricsCalculator(model, target_layers)
 
 img1 = cv.imread("test1.png")

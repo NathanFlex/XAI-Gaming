@@ -5,7 +5,7 @@
 Here, the player controls an immovable character in an environment with red balls spawning around them. The objective of the game is to shoot the red balls that act as targets.
 Each hit is a point, there are no negative points for missing. 
 
-![image]https://github.com/NathanFlex/XAI-Gaming/blob/main/ShooterGame/Explanations/test.png?raw=true
+![image](https://github.com/NathanFlex/XAI-Gaming/blob/main/ShooterGame/Explanations/test.png?raw=true)
 
 ## 2. Deep Learning Model Used
 
@@ -26,13 +26,13 @@ The dataset consists of 1 class labelled "ball".
 Used to determine which pixels of the input image are most critical for the model when predicting the coordinates of the target. 
 By computing the gradient of the output with respect to the input image, the saliency map highlights regions that most influence the model’s prediction
 
-![image]https://github.com/NathanFlex/XAI-Gaming/blob/main/ShooterGame/Explanations/Saliency%20Map.png?raw=true
+![image](https://github.com/NathanFlex/XAI-Gaming/blob/main/ShooterGame/Explanations/Saliency%20Map.png?raw=true)
 
 ### b) EigenCAM
 
 A variation of Class Activation Maps (CAM) that uses principal component analysis (PCA) to generate a heat map indicating which regions of an image contribute the most to the model’s final decision.
 For the shooter game, EigenCAM provides an intuitive way to visualize how the CNN layers are processing the image, showing what elements in the image the model considers important to predicting the position of the target.
 
-![image]https://github.com/NathanFlex/XAI-Gaming/blob/main/ShooterGame/Explanations/EigenCAM1.png?raw=true
+![image](https://github.com/NathanFlex/XAI-Gaming/blob/main/ShooterGame/Explanations/EigenCAM1.png?raw=true)
 
-![image]https://github.com/NathanFlex/XAI-Gaming/blob/main/ShooterGame/Explanations/EigenCAM2.png?raw=true
+![image](https://github.com/NathanFlex/XAI-Gaming/blob/main/ShooterGame/Explanations/EigenCAM2.png?raw=true)

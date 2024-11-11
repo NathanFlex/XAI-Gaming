@@ -4,13 +4,15 @@
 
 The Fruit Catcher game is an engaging and interactive reinforcement learning environment where a player controls a basket that moves horizontally at the bottom of the screen. The objective is to catch falling fruits to score points. Each successful catch increases the score, while missed fruits decrease the score or can potentially end the game. This setup provides a platform to train and evaluate reinforcement learning models, focusing on optimizing the agent's decision-making to achieve the highest score.
 
+The game and model architecture were initially developed by [William Seymor](https://medium.com/@www.seymour/training-an-ai-to-play-a-game-using-deep-reinforcement-learning-b63534cfdecd), and we decided to apply explainable AI techniques to understand it's decision making process.
+
 ![image](https://github.com/user-attachments/assets/1108b0bb-e90f-48f2-9167-48611105905d)  <!-- Replace 'link_to_game_image_here' with the actual URL for the game image in your repository -->
 
 ## 2. Reinforcement Learning Model Used
 
 ### Deep Q-Network (DQN)
 
-For this project, we employed a Deep Q-Network (DQN), which is an algorithm that combines Q-Learning with deep neural networks. The DQN algorithm trains the agent to learn an optimal policy for maximizing rewards by approximating the Q-value function. The Q-value represents the expected cumulative reward of taking a specific action in a given state and following the optimal policy thereafter.
+For this project, a Deep Q-Network (DQN) was employed, which is an algorithm that combines Q-Learning with deep neural networks. The DQN algorithm trains the agent to learn an optimal policy for maximizing rewards by approximating the Q-value function. The Q-value represents the expected cumulative reward of taking a specific action in a given state and following the optimal policy thereafter.
 
 ### Training Details
 
